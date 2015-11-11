@@ -6,7 +6,6 @@ fn main() {
     let num_steps = 11i32;
     let mut pi_summation = 0.0f64;
     for i in 0..num_steps {
-        //pi_summation += (1.0 / 16.0f32.powf(i as f32))as f64:;
         pi_summation += (1.0f64 / 16.0f64.powf(i as f64)) * ((4.0f64/(8.0f64 * (i as f64)+1.0f64)) - (2.0f64/(8.0f64 * (i as f64)+4.0f64)) - (1.0f64/(8.0f64 * (i as f64)+5.0f64)) - (1.0f64/(8.0f64 * (i as f64)+6.0f64))   );
     }
 
