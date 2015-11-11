@@ -1,3 +1,4 @@
 # have-some-pi
 
-Calculates Pi in various languages.
+
+Calculates Pii (accurate to 15 decimal places) in various languages.
