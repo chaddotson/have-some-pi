@@ -9,5 +9,5 @@ fn main() {
         pi_summation += (1.0f64 / 16.0f64.powf(i as f64)) * ((4.0f64/(8.0f64 * (i as f64)+1.0f64)) - (2.0f64/(8.0f64 * (i as f64)+4.0f64)) - (1.0f64/(8.0f64 * (i as f64)+5.0f64)) - (1.0f64/(8.0f64 * (i as f64)+6.0f64))   );
     }
 
-    println!("Pi = {:.*}", 20, pi_summation);
+    println!("Pi = {:.*}", 15, pi_summation);
 }

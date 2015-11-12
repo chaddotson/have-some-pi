@@ -15,6 +15,6 @@ func main() {
 		piSummation += (1.0/math.Pow(16.0, float64(i))) * ((4.0/(8.0*float64(i) + 1.0)) - (2.0/(8.0*float64(i) + 4.0)) - (1.0/(8.0*float64(i) + 5.0)) - (1.0/(8.0*float64(i) + 6.0)))	
 	}
 	
-	fmt.Printf("Pi = %.20f", piSummation)
+	fmt.Printf("Pi = %.15f", piSummation)
 }
 
